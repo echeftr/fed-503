@@ -13,7 +13,7 @@ Test Data (nu nog uitgebreid, later beknopter)
   console.log("Add cool:", addTheWordCool(["nice", "awesome", "tof"]));
  / resultaat: ["nice", "awesome", "tof", "cool"] */
 
-// deel A
+// Mijn antwoord deel A
 const addTheWordCool = function(array){
     array.push("cool");
     return array;
@@ -28,6 +28,8 @@ Test Data
 
   console.log(amountOfElementsInArray(['appels', 'peren', 'citroenen'])); 
   / 3 */
+
+// Mijn antwoord deel B
 let amountOfElementsInArray = function(array) {
     
     return array.length;
@@ -44,6 +46,7 @@ Test Data
   // resultaat: "Belgie" 
  */
 
+// Mijn antwoord deel C
  let selectBelgiumFromBenelux = function(array) {
      return array[0];
  }
@@ -58,6 +61,7 @@ Test Data
   console.log(lastElementInArray(["Haas", "Cavia", "Kip", "Schildpad"])); 
   / resultaat: "Schildpad" */
 
+// Mijn antwoord deel D
   let lastElementInArray = function(array) {
       return array[array.length -1];
   }
@@ -84,6 +88,7 @@ Test Data
 
 //  .splice = De splice()-methode past de inhoud van een array aan door bestaande elementen te verwijderen en/of nieuwe elementen toe te voegen.
 
+// Mijn antwoord deel E
 const presidents = ["Trump", "Obama", "Bush", "Clinton"] 
   
   const impeachTrumpSlice = function(array) {
@@ -109,19 +114,23 @@ Test data
   console.log(stringsTogether(['Winc', 'Academy', 'is', 'leuk', ';-}'])) 
   /resultaat: "Winc Academy is leuk ;-}" */
 
+
+// Mijn antwoord deel F
   let stringsTogether = function (array) {
         return array.join(' ')
   }
 
   console.log(stringsTogether(['Winc', 'Academy', 'is', 'leuk', ';-}'])) 
 
-//   deel F
+//   deel G
 /* G Schrijf een functie die 2 arrays ['array 1'] ['array2'] combineert tot 1 array ['array1', 'array2']
 
 Test Data
 
   combineArrays([1,2,3], [4,5,6]) 
   / resultaat: [1,2,3,4,5,6] */
+
+// Mijn antwoord deel G
 
   let combineArrays = function(array1, array2) {
       return array1.concat(array2);
